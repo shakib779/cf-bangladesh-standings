@@ -1,0 +1,10 @@
+<div class="post-list">
+  <div *ngFor="let item of bdUsers; let i = index">
+    <div class="item-story">
+      <h5>
+        <span>{{i + 1}}. {{ item.party.members[0].handle }} - {{ item.rank }}</span>
+      </h5>
+    </div>
+  </div>
+</div>
+<div style="text-align: center"><a href="#" (click)="loadMorePost(); $event.preventDefault();">Load More </a> </div>

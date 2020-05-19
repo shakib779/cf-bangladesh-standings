@@ -1,0 +1,13 @@
+.center-aligned {
+  text-align: center
+}
+
+.post-list {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-story {
+  padding: 0px 0px;
+}
